@@ -14,9 +14,9 @@ Git nor I need the whole SHA.)
 2. What is the SHA for the last commit associated with line 9 of this file?
 b2ed3
 3. What did line 12 of this file say in commit d1d83?
-
+2. I should really finish writing this.
 4. What changed between commit e474c and 82045?
-
+gross_sort lambda function added an int cast, top_five changed rows indexing to [:-6:-1] instead of [:-5:-1]
 ## Predicting merges
 
 Assume at the start of each of these three questions that your
