@@ -37,14 +37,14 @@ What branches would change, and how?
 git checkout test
 git merge top_N
 ```
-
+I think that this will put the top_N code in test. This won't change top_N.
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
 git checkout top_ten
 git merge test
 ```
-
+I think that this will put the test code in top_ten. This won't change test.
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
@@ -52,3 +52,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+I think that this will end up with top_N in test.
